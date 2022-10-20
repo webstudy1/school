@@ -122,16 +122,15 @@ img {vertical-align: middle;}
 var hours = time.getHours();
 	    var hours = time.getHours();
             var minutes = time.getMinutes();
-            var seconds = time.getSeconds()
-	    ;
+            var seconds = time.getSeconds();
 	var i = hours - 22;
-	if (minutes>=30) {i = i +4;}
+	if (minutes>=30) {i = i +4}
 	if (a==32){
-		b[i] = b[i] +1;
+		b[i] = b[i] +1
 	}
 	if (a==8) 
 	{
-		b[i] = b[i] -1;
+		b[i] = b[i] -1
 	}
 document.getElementById("test4").innerHTML ="9:30~10:00 " + b[4] + "/20";
 		document.getElementById("test1").innerHTML ="10:00~10:30 " + b[1] + "/20";
