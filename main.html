@@ -107,23 +107,11 @@ img {vertical-align: middle;}
 			<img src= "howtouse.png" style = "width:70%"> </td></tr></table>
 <br>
 
-	<br>
-	<h2>9:30 ~ 10:00: </h2>
 	<h2 id = "test4"></h2>
-	<br>
-	<h2>10:00~10:30: </h2>
 	<h2 id = "test1"></h2>
-	<br>
-	<h2>10:30~11:00: </h2>
 	<h2 id = "test5"></h2>
-	<br>
-	<h2>11:00 ~ 11:30: </h2>
 	<h2 id = "test2"></h2>
-	<br>
-	<h2>11:30 ~ 12:00: </h2>
 	<h2 id = "test6"></h2>
-	<br>
-	<h2>12:00 ~ 12:20: </h2>
 	<h2 id = "test3"></h2>
 	<br>
 <script>
@@ -140,12 +128,12 @@ var hours = time.getHours();
 	if(minutes>=30) i = i +4;
 	if (a==32){ b[i] = b[i] +1};
 	if (a==8) {b[i] = b[i] -1};
-document.getElementById("test4").innerHTML = b[4] + "/20";
-		document.getElementById("test1").innerHTML = b[1] + "/20";
-		document.getElementById("test2").innerHTML = b[2] +  "/15";
-		document.getElementById("test3").innerHTML = b[3] + "/5";
-		document.getElementById("test5").innerHTML = b[5] + "/15";
-		document.getElementById("test6").innerHTML = b[6] + "/10";
+document.getElementById("test4").innerHTML ="9:30~10:00 " + b[4] + "/20";
+		document.getElementById("test1").innerHTML ="10:00~10:30 " + b[1] + "/20";
+		document.getElementById("test2").innerHTML = "11:00~11:30 " + b[2] + "/15";
+		document.getElementById("test3").innerHTML = "12:00~12:20 " + b[3] + "/5";
+		document.getElementById("test5").innerHTML = "10:30~11:00 " + b[5] + "/15";
+		document.getElementById("test6").innerHTML = "11:30~12:00 " +b[6] + "/10";
 }
 	</script>
 	<script>
