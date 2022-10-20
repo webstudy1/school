@@ -75,7 +75,7 @@ img {vertical-align: middle;}
 }
 </style>
 </head>
-<body>
+<body onkeypress = "f(event.keyCode)">
 
 <h2>2-2 김치치즈스마일</h2>
 
@@ -108,6 +108,23 @@ img {vertical-align: middle;}
 <br>
 
 <script>
+	function f(a){
+var a = [];
+ var Target = document.getElementById("clock");
+ var time = new Date();
+var hours = time.getHours();
+	    var hours = time.getHours();
+            var minutes = time.getMinutes();
+            var seconds = time.getSeconds()
+	    };
+	var i = hours - 9;
+	if(minutes>=30) i = i +4;
+	(if a==32) a[i] = a[i] +1;
+	(if a==8) a[i] = a[i] -1;
+}
+document.write(a[1], a[2], a[3], a[4], a[5], a[6]);
+	</script>
+	<script>
 var slideIndex = 0;
 showSlides();
 
