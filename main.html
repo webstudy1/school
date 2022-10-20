@@ -108,9 +108,24 @@ img {vertical-align: middle;}
 <br>
 
 	<br>
-	<h2 id = "test"></h2>
+	<h2 id = "test4"></h2>
+	<h2>/20</h2>
 	<br>
-	<h3 id = "test1"></h3>
+	<h2 id = "test1"></h2>
+	<h2>/20</h2>
+	<br>
+	<h2 id = "test5"></h2>
+	<h2>/15</h2>
+	<br>
+	<h2 id = "test2"></h2>
+	<h2>/15</h2>
+	<br>
+	<h2 id = "test6"></h2>
+	<h2>/10</h2>
+	<br>
+	<h2 id = "test3"></h2>
+	<h2>/5</h2>
+	<br>
 <script>
 	const b = [0,0,0,0,0,0,0]
 	function f(a){
@@ -125,8 +140,13 @@ var hours = time.getHours();
 	if(minutes>=30) i = i +4;
 	if (a==32){ b[i] = b[i] +1};
 	if (a==8) {b[i] = b[i] -1};
-document.getElementById("test").innerHTML = (b[4], b[1], b[5], b[2], b[6], b[3]);
-	document.getElementById("test1").innerHTML = i;}
+document.getElementById("test4").innerHTML = b[4];
+		document.getElementById("test1").innerHTML = b[1];
+		document.getElementById("test2").innerHTML = b[2];
+		document.getElementById("test3").innerHTML = b[3];
+		document.getElementById("test5").innerHTML = b[5];
+		document.getElementById("test6").innerHTML = b[6];
+}
 	</script>
 	<script>
 var slideIndex = 0;
